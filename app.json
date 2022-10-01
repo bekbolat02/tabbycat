@@ -1,0 +1,2403 @@
+-----> Node.js app detected
+
+       PRO TIP: Avoid using semver ranges starting with '>' in engines.node
+
+       See https://devcenter.heroku.com/articles/nodejs-support
+
+-----> Requested node range:  >=0.12
+
+-----> Resolved node version: 6.9.1
+
+-----> Downloading and installing node
+
+-----> Writing a custom .npmrc to circumvent npm bugs
+
+-----> Exporting config vars to environment
+
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+
+npm WARN deprecated minimatch@0.3.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+
+npm WARN deprecated graceful-fs@1.2.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+
+peerflix-server@0.1.1 /tmp/build_02e542a15eca15137ce863eb7131c31e/asapach-peerflix-server-edd33f7
+
+├── bower@1.8.0 
+
+├─┬ grunt@0.4.5 
+
+│ ├── async@0.1.22 
+
+│ ├── coffee-script@1.3.3 
+
+│ ├── colors@0.6.2 
+
+│ ├── dateformat@1.0.2-1.2.3 
+
+│ ├── eventemitter2@0.4.14 
+
+│ ├── exit@0.1.2 
+
+│ ├─┬ findup-sync@0.1.3 
+
+│ │ ├─┬ glob@3.2.11 
+
+│ │ │ └── minimatch@0.3.0 
+
+│ │ └── lodash@2.4.2 
+
+│ ├── getobject@0.1.0 
+
+│ ├─┬ glob@3.1.21 
+
+│ │ ├── graceful-fs@1.2.3 
+
+│ │ └── inherits@1.0.2 
+
+│ ├─┬ grunt-legacy-log@0.1.3 
+
+│ │ ├─┬ grunt-legacy-log-utils@0.1.1 
+
+│ │ │ ├── lodash@2.4.2 
+
+│ │ │ └── underscore.string@2.3.3 
+
+│ │ ├── lodash@2.4.2 
+
+│ │ └── underscore.string@2.3.3 
+
+│ ├─┬ grunt-legacy-util@0.2.0 
+
+│ │ └── lodash@0.9.2 
+
+│ ├── hooker@0.2.3 
+
+│ ├── iconv-lite@0.2.11 
+
+│ ├─┬ js-yaml@2.0.5 
+
+│ │ ├─┬ argparse@0.1.16 
+
+│ │ │ ├── underscore@1.7.0 
+
+│ │ │ └── underscore.string@2.4.0 
+
+│ │ └── esprima@1.0.4 
+
+│ ├── lodash@0.9.2 
+
+│ ├─┬ minimatch@0.2.14 
+
+│ │ ├── lru-cache@2.7.3 
+
+│ │ └── sigmund@1.0.1 
+
+│ ├── nopt@1.0.10 
+
+│ ├── rimraf@2.2.8 
+
+│ ├── underscore.string@2.2.1 
+
+│ └── which@1.0.9 
+
+└─┬ grunt-cli@1.2.0 
+
+  ├─┬ findup-sync@0.3.0 
+
+  │ └─┬ glob@5.0.15 
+
+  │   ├─┬ inflight@1.0.6 
+
+  │   │ └── wrappy@1.0.2 
+
+  │   ├── inherits@2.0.3 
+
+  │   ├─┬ minimatch@3.0.3 
+
+  │   │ └─┬ brace-expansion@1.1.6 
+
+  │   │   ├── balanced-match@0.4.2 
+
+  │   │   └── concat-map@0.0.1 
+
+  │   ├── once@1.4.0 
+
+  │   └── path-is-absolute@1.0.1 
+
+  ├── grunt-known-options@1.1.0 
+
+  ├─┬ nopt@3.0.6 
+
+  │ └── abbrev@1.0.9 
+
+  └── resolve@1.1.7 
+
+-----> Installing dependencies
+
+bower angular-cookies#~1.2.16       not-cached https://github.com/angular/bower-angular-cookies.git#~1.2.16
+
+bower angular-cookies#~1.2.16          resolve https://github.com/angular/bower-angular-cookies.git#~1.2.16
+
+bower jquery#~2.1.1                 not-cached https://github.com/jquery/jquery-dist.git#~2.1.1
+
+bower jquery#~2.1.1                    resolve https://github.com/jquery/jquery-dist.git#~2.1.1
+
+bower lodash#~2.4.1                 not-cached https://github.com/lodash/lodash.git#~2.4.1
+
+bower lodash#~2.4.1                    resolve https://github.com/lodash/lodash.git#~2.4.1
+
+bower bootstrap#~3.3.1              not-cached https://github.com/twbs/bootstrap.git#~3.3.1
+
+bower bootstrap#~3.3.1                 resolve https://github.com/twbs/bootstrap.git#~3.3.1
+
+bower angular-sanitize#~1.2.16      not-cached https://github.com/angular/bower-angular-sanitize.git#~1.2.16
+
+bower angular-sanitize#~1.2.16         resolve https://github.com/angular/bower-angular-sanitize.git#~1.2.16
+
+bower angular-mocks#~1.2.16         not-cached https://github.com/angular/bower-angular-mocks.git#~1.2.16
+
+bower angular-mocks#~1.2.16            resolve https://github.com/angular/bower-angular-mocks.git#~1.2.16
+
+bower angular-route#~1.2.16         not-cached https://github.com/angular/bower-angular-route.git#~1.2.16
+
+bower angular-route#~1.2.16            resolve https://github.com/angular/bower-angular-route.git#~1.2.16
+
+bower ng-file-upload#~3.3.4         not-cached https://github.com/danialfarid/angular-file-upload-bower.git#~3.3.4
+
+bower ng-file-upload#~3.3.4            resolve https://github.com/danialfarid/angular-file-upload-bower.git#~3.3.4
+
+bower angular-resource#~1.2.16      not-cached https://github.com/angular/bower-angular-resource.git#~1.2.16
+
+bower angular-resource#~1.2.16         resolve https://github.com/angular/bower-angular-resource.git#~1.2.16
+
+bower font-awesome#~4.2.0           not-cached https://github.com/FortAwesome/Font-Awesome.git#~4.2.0
+
+bower font-awesome#~4.2.0              resolve https://github.com/FortAwesome/Font-Awesome.git#~4.2.0
+
+bower push.js#^0.0.10               not-cached https://github.com/Nickersoft/push.js.git#^0.0.10
+
+bower push.js#^0.0.10                  resolve https://github.com/Nickersoft/push.js.git#^0.0.10
+
+bower angular#~1.2.16               not-cached https://github.com/angular/bower-angular.git#~1.2.16
+
+bower angular#~1.2.16                  resolve https://github.com/angular/bower-angular.git#~1.2.16
+
+bower angular-socket-io#~0.6.0      not-cached https://github.com/btford/angular-socket-io.git#~0.6.0
+
+bower angular-socket-io#~0.6.0         resolve https://github.com/btford/angular-socket-io.git#~0.6.0
+
+bower angular-cookies#~1.2.16         download https://github.com/angular/bower-angular-cookies/archive/v1.2.32.tar.gz
+
+bower ng-file-upload#~3.3.4           download https://github.com/danialfarid/angular-file-upload-bower/archive/3.3.4.tar.gz
+
+bower bootstrap#~3.3.1                download https://github.com/twbs/bootstrap/archive/v3.3.7.tar.gz
+
+bower angular-route#~1.2.16           download https://github.com/angular/bower-angular-route/archive/v1.2.32.tar.gz
+
+bower angular-mocks#~1.2.16           download https://github.com/angular/bower-angular-mocks/archive/v1.2.32.tar.gz
+
+bower angular-sanitize#~1.2.16        download https://github.com/angular/bower-angular-sanitize/archive/v1.2.32.tar.gz
+
+bower push.js#^0.0.10                 download https://github.com/Nickersoft/push.js/archive/v0.0.10.tar.gz
+
+bower font-awesome#~4.2.0             download https://github.com/FortAwesome/Font-Awesome/archive/v4.2.0.tar.gz
+
+bower jquery#~2.1.1                   download https://github.com/jquery/jquery-dist/archive/2.1.4.tar.gz
+
+bower angular#~1.2.16                 download https://github.com/angular/bower-angular/archive/v1.2.32.tar.gz
+
+bower angular-resource#~1.2.16        download https://github.com/angular/bower-angular-resource/archive/v1.2.32.tar.gz
+
+bower lodash#~2.4.1                   download https://github.com/lodash/lodash/archive/2.4.2.tar.gz
+
+bower angular-socket-io#~0.6.0        download https://github.com/btford/angular-socket-io/archive/v0.6.1.tar.gz
+
+bower angular-socket-io#~0.6.0         extract archive.tar.gz
+
+bower angular-cookies#~1.2.16          extract archive.tar.gz
+
+bower angular-route#~1.2.16            extract archive.tar.gz
+
+bower push.js#^0.0.10                  extract archive.tar.gz
+
+bower angular-sanitize#~1.2.16         extract archive.tar.gz
+
+bower angular-resource#~1.2.16         extract archive.tar.gz
+
+bower angular-mocks#~1.2.16            extract archive.tar.gz
+
+bower ng-file-upload#~3.3.4            extract archive.tar.gz
+
+bower angular#~1.2.16                  extract archive.tar.gz
+
+bower jquery#~2.1.1                    extract archive.tar.gz
+
+bower lodash#~2.4.1                    extract archive.tar.gz
+
+bower angular-cookies#~1.2.16         resolved https://github.com/angular/bower-angular-cookies.git#1.2.32
+
+bower angular-route#~1.2.16           resolved https://github.com/angular/bower-angular-route.git#1.2.32
+
+bower push.js#^0.0.10                 mismatch Version declared in the json (0.0.9) is different than the resolved one (0.0.10)
+
+bower angular-resource#~1.2.16        resolved https://github.com/angular/bower-angular-resource.git#1.2.32
+
+bower angular-sanitize#~1.2.16        resolved https://github.com/angular/bower-angular-sanitize.git#1.2.32
+
+bower angular-mocks#~1.2.16           resolved https://github.com/angular/bower-angular-mocks.git#1.2.32
+
+bower font-awesome#~4.2.0              extract archive.tar.gz
+
+bower angular-socket-io#~0.6.0        resolved https://github.com/btford/angular-socket-io.git#0.6.1
+
+bower angular#^1.2.6                not-cached https://github.com/angular/bower-angular.git#^1.2.6
+
+bower angular#^1.2.6                   resolve https://github.com/angular/bower-angular.git#^1.2.6
+
+bower angular#^1.2.6                  download https://github.com/angular/bower-angular/archive/v1.6.0.tar.gz
+
+bower ng-file-upload#~3.3.4           resolved https://github.com/danialfarid/angular-file-upload-bower.git#3.3.4
+
+bower push.js#^0.0.10                 resolved https://github.com/Nickersoft/push.js.git#0.0.10
+
+bower angular#~1.2.16                 resolved https://github.com/angular/bower-angular.git#1.2.32
+
+bower angular#^1.2.6                   extract archive.tar.gz
+
+bower bootstrap#~3.3.1                 extract archive.tar.gz
+
+bower angular#^1.2.6                  resolved https://github.com/angular/bower-angular.git#1.6.0
+
+bower lodash#~2.4.1                   resolved https://github.com/lodash/lodash.git#2.4.2
+
+bower jquery#~2.1.1                   resolved https://github.com/jquery/jquery-dist.git#2.1.4
+
+bower bootstrap#~3.3.1                resolved https://github.com/twbs/bootstrap.git#3.3.7
+
+bower font-awesome#~4.2.0         invalid-meta for:/tmp/e461574e4e8420acd8910056e5941c4a/bower/32b121f1e564c015b458c30a6337ac1b-127-QkZhBh/bower.json
+
+bower font-awesome#~4.2.0         invalid-meta The "main" field cannot contain globs (example: "*.js")
+
+bower font-awesome#~4.2.0             resolved https://github.com/FortAwesome/Font-Awesome.git#4.2.0
+
+bower angular-cookies#~1.2.16          install angular-cookies#1.2.32
+
+bower angular-route#~1.2.16            install angular-route#1.2.32
+
+bower angular-resource#~1.2.16         install angular-resource#1.2.32
+
+bower angular-sanitize#~1.2.16         install angular-sanitize#1.2.32
+
+bower angular-mocks#~1.2.16            install angular-mocks#1.2.32
+
+bower angular-socket-io#~0.6.0         install angular-socket-io#0.6.1
+
+bower ng-file-upload#~3.3.4            install ng-file-upload#3.3.4
+
+bower push.js#^0.0.10                  install push.js#0.0.10
+
+bower angular#~1.2.16                  install angular#1.2.32
+
+bower lodash#~2.4.1                    install lodash#2.4.2
+
+bower jquery#~2.1.1                    install jquery#2.1.4
+
+bower bootstrap#~3.3.1                 install bootstrap#3.3.7
+
+bower font-awesome#~4.2.0              install font-awesome#4.2.0
+
+angular-cookies#1.2.32 app/bower_components/angular-cookies
+
+└── angular#1.2.32
+
+angular-route#1.2.32 app/bower_components/angular-route
+
+└── angular#1.2.32
+
+angular-resource#1.2.32 app/bower_components/angular-resource
+
+└── angular#1.2.32
+
+angular-sanitize#1.2.32 app/bower_components/angular-sanitize
+
+└── angular#1.2.32
+
+angular-mocks#1.2.32 app/bower_components/angular-mocks
+
+└── angular#1.2.32
+
+angular-socket-io#0.6.1 app/bower_components/angular-socket-io
+
+└── angular#1.2.32
+
+ng-file-upload#3.3.4 app/bower_components/ng-file-upload
+
+push.js#0.0.10 app/bower_components/push.js
+
+angular#1.2.32 app/bower_components/angular
+
+lodash#2.4.2 app/bower_components/lodash
+
+jquery#2.1.4 app/bower_components/jquery
+
+bootstrap#3.3.7 app/bower_components/bootstrap
+
+└── jquery#2.1.4
+
+font-awesome#4.2.0 app/bower_components/font-awesome
+
+npm WARN deprecated static-favicon@1.0.2: use serve-favicon module
+
+npm WARN deprecated node-uuid@1.4.7: use uuid module instead
+
+npm WARN deprecated bittorrent-dht@3.2.6: Critical security issue fixed in 5.1.3. All users should upgrade. (More info: https://github.com/feross/bittorrent-dht/issues/87)
+
+npm WARN deprecated grunt-ngmin@0.0.3: use grunt-ng-annotate instead
+
+npm WARN deprecated minimatch@0.3.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+
+npm WARN deprecated minimatch@1.0.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+
+npm WARN deprecated ngmin@0.4.1: use ng-annotate instead
+
+npm WARN deprecated graceful-fs@2.0.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+
+npm WARN deprecated tough-cookie@2.2.2: ReDoS vulnerability parsing Set-Cookie https://nodesecurity.io/advisories/130
+
+npm WARN prefer global jshint@2.5.11 should be installed with -g
+
+> phantomjs@1.9.20 install /tmp/build_02e542a15eca15137ce863eb7131c31e/asapach-peerflix-server-edd33f7/node_modules/phantomjs
+
+> node install.js
+
+PhantomJS not found on PATH
+
+Downloading https://github.com/Medium/phantomjs/releases/download/v1.9.19/phantomjs-1.9.8-linux-x86_64.tar.bz2
+
+Saving to /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2
+
+Receiving...
+
+Received 12854K total.
+
+Extracting tar contents (via spawned process)
+
+Removing /tmp/build_02e542a15eca15137ce863eb7131c31e/asapach-peerflix-server-edd33f7/node_modules/phantomjs/lib/phantom
+
+Copying extracted folder /tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2-extract-1482251173542/phantomjs-1.9.8-linux-x86_64 -> /tmp/build_02e542a15eca15137ce863eb7131c31e/asapach-peerflix-server-edd33f7/node_modules/phantomjs/lib/phantom
+
+Writing location.js file
+
+Done. Phantomjs binary available at /tmp/build_02e542a15eca15137ce863eb7131c31e/asapach-peerflix-server-edd33f7/node_modules/phantomjs/lib/phantom/bin/phantomjs
+
+peerflix-server@0.1.1 /tmp/build_02e542a15eca15137ce863eb7131c31e/asapach-peerflix-server-edd33f7
+
+├─┬ connect-multiparty@1.2.5 
+
+│ ├─┬ multiparty@3.3.2 
+
+│ │ ├─┬ readable-stream@1.1.14 
+
+│ │ │ ├── core-util-is@1.0.2 
+
+│ │ │ └── string_decoder@0.10.31 
+
+│ │ └── stream-counter@0.2.0 
+
+│ ├─┬ on-finished@2.1.1 
+
+│ │ └── ee-first@1.1.0 
+
+│ ├── qs@2.2.5 
+
+│ └─┬ type-is@1.5.7 
+
+│   ├── media-typer@0.3.0 
+
+│   └─┬ mime-types@2.0.14 
+
+│     └── mime-db@1.12.0 
+
+├─┬ express@3.5.3 
+
+│ ├── buffer-crc32@0.2.1 
+
+│ ├─┬ commander@1.3.2 
+
+│ │ └── keypress@0.1.0 
+
+│ ├─┬ connect@2.14.5 
+
+│ │ ├── basic-auth-connect@1.0.0 
+
+│ │ ├── bytes@0.3.0 
+
+│ │ ├─┬ compression@1.0.0 
+
+│ │ │ ├── bytes@0.2.1 
+
+│ │ │ ├── compressible@1.0.0 
+
+│ │ │ └── negotiator@0.3.0 
+
+│ │ ├── connect-timeout@1.0.0 
+
+│ │ ├─┬ cookie-parser@1.0.1 
+
+│ │ │ └── cookie@0.1.0 
+
+│ │ ├─┬ csurf@1.1.0 
+
+│ │ │ ├── scmp@0.0.3 
+
+│ │ │ └── uid2@0.0.3 
+
+│ │ ├── errorhandler@1.0.0 
+
+│ │ ├─┬ express-session@1.0.2 
+
+│ │ │ ├── cookie@0.1.0 
+
+│ │ │ └── debug@0.7.4 
+
+│ │ ├── method-override@1.0.0 
+
+│ │ ├─┬ morgan@1.0.0 
+
+│ │ │ └── bytes@0.2.1 
+
+│ │ ├── multiparty@2.2.0 
+
+│ │ ├── pause@0.0.1 
+
+│ │ ├── qs@0.6.6 
+
+│ │ ├── raw-body@1.1.4 
+
+│ │ ├── response-time@1.0.0 
+
+│ │ ├─┬ serve-index@1.0.1 
+
+│ │ │ ├── batch@0.5.0 
+
+│ │ │ └── negotiator@0.4.2 
+
+│ │ ├─┬ serve-static@1.1.0 
+
+│ │ │ └── parseurl@1.0.1 
+
+│ │ ├── setimmediate@1.0.1 
+
+│ │ ├── static-favicon@1.0.2 
+
+│ │ └── vhost@1.0.0 
+
+│ ├── cookie@0.1.2 
+
+│ ├── cookie-signature@1.0.3 
+
+│ ├── debug@0.8.1 
+
+│ ├── fresh@0.2.2 
+
+│ ├── merge-descriptors@0.0.2 
+
+│ ├── methods@0.1.0 
+
+│ ├── mkdirp@0.4.0 
+
+│ ├── range-parser@1.0.0 
+
+│ └─┬ send@0.3.0 
+
+│   ├── debug@0.8.0 
+
+│   ├── mime@1.2.11 
+
+│   └── range-parser@1.0.3 
+
+├─┬ fluent-ffmpeg@2.1.0 
+
+│ ├─┬ async@2.1.4 
+
+│ │ └── lodash@4.17.2 
+
+│ └─┬ which@1.2.12 
+
+│   └── isexe@1.1.2 
+
+├─┬ grunt-autoprefixer@0.7.6 
+
+│ ├─┬ autoprefixer@1.3.1 
+
+│ │ ├── caniuse-db@1.0.30000601 
+
+│ │ ├─┬ fs-extra@0.9.1 
+
+│ │ │ ├── jsonfile@1.1.1 
+
+│ │ │ └── ncp@0.5.1 
+
+│ │ └─┬ postcss@0.3.5 
+
+│ │   ├── base64-js@0.0.8 
+
+│ │   └── source-map@0.1.43 
+
+│ ├─┬ chalk@0.4.0 
+
+│ │ ├── ansi-styles@1.0.0 
+
+│ │ ├── has-color@0.1.7 
+
+│ │ └── strip-ansi@0.1.1 
+
+│ └── diff@1.0.8 
+
+├─┬ grunt-concurrent@0.5.0 
+
+│ ├── async@0.2.10 
+
+│ └─┬ pad-stdio@0.1.1 
+
+│   └── lpad@0.2.1 
+
+├── grunt-contrib-clean@0.5.0 
+
+├── grunt-contrib-concat@0.4.0 
+
+├─┬ grunt-contrib-connect@0.10.1 
+
+│ ├── async@0.9.2 
+
+│ ├─┬ connect@2.30.2 
+
+│ │ ├── bytes@2.1.0 
+
+│ │ ├─┬ compression@1.5.2 
+
+│ │ │ ├─┬ accepts@1.2.13 
+
+│ │ │ │ └── negotiator@0.5.3 
+
+│ │ │ ├─┬ compressible@2.0.9 
+
+│ │ │ │ └── mime-db@1.25.0 
+
+│ │ │ └── vary@1.0.1 
+
+│ │ ├─┬ connect-timeout@1.6.2 
+
+│ │ │ └── ms@0.7.1 
+
+│ │ ├── content-type@1.0.2 
+
+│ │ ├── cookie@0.1.3 
+
+│ │ ├── cookie-parser@1.3.5 
+
+│ │ ├── cookie-signature@1.0.6 
+
+│ │ ├─┬ csurf@1.8.3 
+
+│ │ │ └─┬ csrf@3.0.4 
+
+│ │ │   ├── base64-url@1.3.3 
+
+│ │ │   ├── rndm@1.2.0 
+
+│ │ │   ├── tsscmp@1.0.5 
+
+│ │ │   └─┬ uid-safe@2.1.3 
+
+│ │ │     └── random-bytes@1.0.0 
+
+│ │ ├── debug@2.2.0 
+
+│ │ ├── depd@1.0.1 
+
+│ │ ├─┬ errorhandler@1.4.3 
+
+│ │ │ ├─┬ accepts@1.3.3 
+
+│ │ │ │ └── negotiator@0.6.1 
+
+│ │ │ └── escape-html@1.0.3 
+
+│ │ ├─┬ express-session@1.11.3 
+
+│ │ │ ├── crc@3.3.0 
+
+│ │ │ └─┬ uid-safe@2.0.0 
+
+│ │ │   └── base64-url@1.2.1 
+
+│ │ ├─┬ finalhandler@0.4.0 
+
+│ │ │ ├─┬ debug@2.2.0 
+
+│ │ │ │ └── ms@0.7.1 
+
+│ │ │ ├── escape-html@1.0.2 
+
+│ │ │ ├─┬ on-finished@2.3.0 
+
+│ │ │ │ └── ee-first@1.1.1 
+
+│ │ │ └── unpipe@1.0.0 
+
+│ │ ├── fresh@0.3.0 
+
+│ │ ├─┬ http-errors@1.3.1 
+
+│ │ │ └── statuses@1.3.1 
+
+│ │ ├─┬ method-override@2.3.7 
+
+│ │ │ ├─┬ debug@2.3.3 
+
+│ │ │ │ └── ms@0.7.2 
+
+│ │ │ ├── methods@1.1.2 
+
+│ │ │ └── vary@1.1.0 
+
+│ │ ├─┬ morgan@1.6.1 
+
+│ │ │ ├── basic-auth@1.0.4 
+
+│ │ │ └─┬ on-finished@2.3.0 
+
+│ │ │   └── ee-first@1.1.1 
+
+│ │ ├── on-headers@1.0.1 
+
+│ │ ├── parseurl@1.3.1 
+
+│ │ ├── pause@0.1.0 
+
+│ │ ├── qs@4.0.0 
+
+│ │ ├─┬ response-time@2.3.2 
+
+│ │ │ └── depd@1.1.0 
+
+│ │ ├─┬ serve-favicon@2.3.2 
+
+│ │ │ ├── etag@1.7.0 
+
+│ │ │ ├── fresh@0.3.0 
+
+│ │ │ └── parseurl@1.3.1 
+
+│ │ ├─┬ serve-index@1.7.3 
+
+│ │ │ ├── batch@0.5.3 
+
+│ │ │ └── mime-types@2.1.13 
+
+│ │ ├─┬ serve-static@1.10.3 
+
+│ │ │ └─┬ send@0.13.2 
+
+│ │ │   ├── depd@1.1.0 
+
+│ │ │   ├── destroy@1.0.4 
+
+│ │ │   ├── mime@1.3.4 
+
+│ │ │   ├── range-parser@1.0.3 
+
+│ │ │   └── statuses@1.2.1 
+
+│ │ ├── type-is@1.6.14 
+
+│ │ ├── utils-merge@1.0.0 
+
+│ │ └── vhost@3.0.2 
+
+│ ├── connect-livereload@0.5.4 
+
+│ ├── opn@1.0.2 
+
+│ └─┬ portscanner@1.2.0 
+
+│   └── async@1.5.2 
+
+├── grunt-contrib-copy@0.5.0 
+
+├─┬ grunt-contrib-cssmin@0.9.0 
+
+│ ├─┬ clean-css@2.1.8 
+
+│ │ └── commander@2.1.0 
+
+│ └─┬ maxmin@0.1.0 
+
+│   └─┬ gzip-size@0.1.1 
+
+│     ├─┬ concat-stream@1.6.0 
+
+│     │ ├─┬ readable-stream@2.2.2 
+
+│     │ │ └── isarray@1.0.0 
+
+│     │ └── typedarray@0.0.6 
+
+│     └─┬ zlib-browserify@0.0.3 
+
+│       └─┬ tape@0.2.2 
+
+│         ├── deep-equal@0.0.0 
+
+│         ├── defined@0.0.0 
+
+│         └── jsonify@0.0.0 
+
+├─┬ grunt-contrib-htmlmin@0.3.0 
+
+│ ├─┬ html-minifier@0.6.9 
+
+│ │ ├─┬ change-case@2.1.6 
+
+│ │ │ ├── camel-case@1.2.2 
+
+│ │ │ ├── constant-case@1.1.2 
+
+│ │ │ ├── dot-case@1.1.2 
+
+│ │ │ ├── is-lower-case@1.1.3 
+
+│ │ │ ├── is-upper-case@1.1.2 
+
+│ │ │ ├── lower-case@1.1.3 
+
+│ │ │ ├── param-case@1.1.2 
+
+│ │ │ ├── pascal-case@1.1.2 
+
+│ │ │ ├── path-case@1.1.2 
+
+│ │ │ ├── sentence-case@1.1.3 
+
+│ │ │ ├── snake-case@1.1.2 
+
+│ │ │ ├── swap-case@1.1.2 
+
+│ │ │ ├── title-case@1.1.2 
+
+│ │ │ ├── upper-case@1.1.3 
+
+│ │ │ └── upper-case-first@1.1.2 
+
+│ │ ├─┬ clean-css@2.2.23 
+
+│ │ │ └── commander@2.2.0 
+
+│ │ ├─┬ cli@0.6.6 
+
+│ │ │ └─┬ glob@3.2.11 
+
+│ │ │   └── minimatch@0.3.0 
+
+│ │ └── relateurl@0.2.7 
+
+│ └── pretty-bytes@0.1.2 
+
+├─┬ grunt-contrib-jshint@0.10.0 
+
+│ └─┬ jshint@2.5.11 
+
+│   ├─┬ console-browserify@1.1.0 
+
+│   │ └── date-now@0.1.4 
+
+│   ├─┬ htmlparser2@3.8.3 
+
+│   │ ├── domelementtype@1.3.0 
+
+│   │ ├── domhandler@2.3.0 
+
+│   │ ├─┬ domutils@1.5.1 
+
+│   │ │ └─┬ dom-serializer@0.1.0 
+
+│   │ │   ├── domelementtype@1.1.3 
+
+│   │ │   └── entities@1.1.1 
+
+│   │ └── entities@1.0.0 
+
+│   ├── minimatch@1.0.0 
+
+│   ├── shelljs@0.3.0 
+
+│   ├── strip-json-comments@1.0.4 
+
+│   └── underscore@1.6.0 
+
+├─┬ grunt-contrib-uglify@0.4.1 
+
+│ └─┬ uglify-js@2.4.24 
+
+│   ├── async@0.2.10 
+
+│   ├─┬ source-map@0.1.34 
+
+│   │ └── amdefine@1.0.1 
+
+│   ├── uglify-to-browserify@1.0.2 
+
+│   └─┬ yargs@3.5.4 
+
+│     ├── camelcase@1.2.1 
+
+│     ├── decamelize@1.2.0 
+
+│     └── window-size@0.1.0 
+
+├─┬ grunt-contrib-watch@0.6.1 
+
+│ ├── async@0.2.10 
+
+│ ├─┬ gaze@0.5.2 
+
+│ │ └─┬ globule@0.1.0 
+
+│ │   └── lodash@1.0.2 
+
+│ └─┬ tiny-lr-fork@0.0.5 
+
+│   ├── debug@0.7.4 
+
+│   ├── faye-websocket@0.4.4 
+
+│   ├─┬ noptify@0.0.3 
+
+│   │ └── nopt@2.0.0 
+
+│   └── qs@0.5.6 
+
+├─┬ grunt-karma@2.0.0 
+
+│ └── lodash@3.10.1 
+
+├─┬ grunt-newer@0.7.0 
+
+│ ├── async@0.2.10 
+
+│ └── rimraf@2.2.6 
+
+├─┬ grunt-ngmin@0.0.3 
+
+│ └─┬ ngmin@0.4.1 
+
+│   ├── astral@0.1.0 
+
+│   ├─┬ astral-angular-annotate@0.0.2 
+
+│   │ └── astral-pass@0.1.0 
+
+│   ├── clone@0.1.19 
+
+│   ├── commander@1.1.1 
+
+│   └─┬ escodegen@0.0.28 
+
+│     └── estraverse@1.3.2 
+
+├── grunt-rev@0.1.0 
+
+├─┬ grunt-svgmin@0.4.0 
+
+│ ├── each-async@0.1.3 
+
+│ └─┬ svgo@0.4.5 
+
+│   ├─┬ coa@0.4.1 
+
+│   │ └── q@0.9.7 
+
+│   ├── js-yaml@2.1.3 
+
+│   ├── sax@0.6.1 
+
+│   └── whet.extend@0.9.9 
+
+├─┬ grunt-usemin@2.1.1 
+
+│ ├── debug@0.7.4 
+
+│ └── lodash@1.0.2 
+
+├─┬ grunt-wiredep@1.7.1 
+
+│ ├─┬ bower-config@0.5.2 
+
+│ │ ├── graceful-fs@2.0.3 
+
+│ │ ├── mout@0.9.1 
+
+│ │ └── osenv@0.0.3 
+
+│ └─┬ wiredep@1.5.0 
+
+│   ├─┬ chalk@0.1.1 
+
+│   │ └── ansi-styles@0.1.2 
+
+│   ├─┬ glob@3.2.11 
+
+│   │ └── minimatch@0.3.0 
+
+│   ├── lodash@1.3.1 
+
+│   └─┬ through2@0.4.2 
+
+│     ├── readable-stream@1.0.34 
+
+│     └─┬ xtend@2.1.2 
+
+│       └── object-keys@0.4.0 
+
+├─┬ jshint-stylish@0.2.0 
+
+│ └── text-table@0.2.0 
+
+├─┬ karma@0.13.22 
+
+│ ├── batch@0.5.3 
+
+│ ├── bluebird@2.11.0 
+
+│ ├─┬ body-parser@1.13.3 
+
+│ │ ├── bytes@2.1.0 
+
+│ │ ├─┬ debug@2.2.0 
+
+│ │ │ └── ms@0.7.1 
+
+│ │ ├── iconv-lite@0.4.11 
+
+│ │ ├─┬ on-finished@2.3.0 
+
+│ │ │ └── ee-first@1.1.1 
+
+│ │ ├── qs@4.0.0 
+
+│ │ ├─┬ raw-body@2.1.7 
+
+│ │ │ ├── bytes@2.4.0 
+
+│ │ │ └── iconv-lite@0.4.13 
+
+│ │ └─┬ type-is@1.6.14 
+
+│ │   └─┬ mime-types@2.1.13 
+
+│ │     └── mime-db@1.25.0 
+
+│ ├─┬ chokidar@1.6.1 
+
+│ │ ├─┬ anymatch@1.3.0 
+
+│ │ │ ├── arrify@1.0.1 
+
+│ │ │ └─┬ micromatch@2.3.11 
+
+│ │ │   ├─┬ arr-diff@2.0.0 
+
+│ │ │   │ └── arr-flatten@1.0.1 
+
+│ │ │   ├─┬ braces@1.8.5 
+
+│ │ │   │ ├─┬ expand-range@1.8.2 
+
+│ │ │   │ │ └─┬ fill-range@2.2.3 
+
+│ │ │   │ │   ├── is-number@2.1.0 
+
+│ │ │   │ │   ├─┬ isobject@2.1.0 
+
+│ │ │   │ │   │ └── isarray@1.0.0 
+
+│ │ │   │ │   ├── randomatic@1.1.6 
+
+│ │ │   │ │   └── repeat-string@1.6.1 
+
+│ │ │   │ ├── preserve@0.2.0 
+
+│ │ │   │ └── repeat-element@1.1.2 
+
+│ │ │   ├─┬ expand-brackets@0.1.5 
+
+│ │ │   │ └── is-posix-bracket@0.1.1 
+
+│ │ │   ├── extglob@0.3.2 
+
+│ │ │   ├── filename-regex@2.0.0 
+
+│ │ │   ├─┬ kind-of@3.1.0 
+
+│ │ │   │ └── is-buffer@1.1.4 
+
+│ │ │   ├── normalize-path@2.0.1 
+
+│ │ │   ├─┬ object.omit@2.0.1 
+
+│ │ │   │ ├─┬ for-own@0.1.4 
+
+│ │ │   │ │ └── for-in@0.1.6 
+
+│ │ │   │ └── is-extendable@0.1.1 
+
+│ │ │   ├─┬ parse-glob@3.0.4 
+
+│ │ │   │ ├── glob-base@0.3.0 
+
+│ │ │   │ └── is-dotfile@1.0.2 
+
+│ │ │   └─┬ regex-cache@0.4.3 
+
+│ │ │     ├── is-equal-shallow@0.1.3 
+
+│ │ │     └── is-primitive@2.0.0 
+
+│ │ ├── async-each@1.0.1 
+
+│ │ ├── glob-parent@2.0.0 
+
+│ │ ├─┬ is-binary-path@1.0.1 
+
+│ │ │ └── binary-extensions@1.8.0 
+
+│ │ ├─┬ is-glob@2.0.1 
+
+│ │ │ └── is-extglob@1.0.0 
+
+│ │ └─┬ readdirp@2.1.0 
+
+│ │   ├── graceful-fs@4.1.11 
+
+│ │   ├── minimatch@3.0.3 
+
+│ │   ├─┬ readable-stream@2.2.2 
+
+│ │   │ ├── buffer-shims@1.0.0 
+
+│ │   │ ├── isarray@1.0.0 
+
+│ │   │ ├── process-nextick-args@1.0.7 
+
+│ │   │ └── util-deprecate@1.0.2 
+
+│ │   └── set-immediate-shim@1.0.1 
+
+│ ├── colors@1.1.2 
+
+│ ├─┬ connect@3.5.0 
+
+│ │ ├─┬ debug@2.2.0 
+
+│ │ │ └── ms@0.7.1 
+
+│ │ ├─┬ finalhandler@0.5.0 
+
+│ │ │ └─┬ on-finished@2.3.0 
+
+│ │ │   └── ee-first@1.1.1 
+
+│ │ └── parseurl@1.3.1 
+
+│ ├── core-js@2.4.1 
+
+│ ├── di@0.0.1 
+
+│ ├─┬ dom-serialize@2.2.1 
+
+│ │ ├── custom-event@1.0.1 
+
+│ │ ├── ent@2.2.0 
+
+│ │ ├── extend@3.0.0 
+
+│ │ └── void-elements@2.0.1 
+
+│ ├─┬ expand-braces@0.1.2 
+
+│ │ ├── array-slice@0.2.3 
+
+│ │ ├── array-unique@0.2.1 
+
+│ │ └─┬ braces@0.1.5 
+
+│ │   └─┬ expand-range@0.1.1 
+
+│ │     ├── is-number@0.1.1 
+
+│ │     └── repeat-string@0.2.2 
+
+│ ├─┬ glob@7.1.1 
+
+│ │ └── fs.realpath@1.0.0 
+
+│ ├── graceful-fs@4.1.11 
+
+│ ├─┬ http-proxy@1.16.2 
+
+│ │ ├── eventemitter3@1.2.0 
+
+│ │ └── requires-port@1.0.0 
+
+│ ├── isbinaryfile@3.0.1 
+
+│ ├── lodash@3.10.1 
+
+│ ├─┬ log4js@0.6.38 
+
+│ │ ├── readable-stream@1.0.34 
+
+│ │ └── semver@4.3.6 
+
+│ ├── mime@1.3.4 
+
+│ ├── minimatch@3.0.3 
+
+│ ├─┬ optimist@0.6.1 
+
+│ │ └── wordwrap@0.0.2 
+
+│ ├── rimraf@2.5.4 
+
+│ ├── source-map@0.5.6 
+
+│ └─┬ useragent@2.1.9 
+
+│   └── lru-cache@2.2.4 
+
+├── karma-jasmine@0.1.6 
+
+├── karma-ng-html2js-preprocessor@0.1.2 
+
+├─┬ karma-phantomjs-launcher@0.1.4 
+
+│ └─┬ phantomjs@1.9.20 
+
+│   ├─┬ extract-zip@1.5.0 
+
+│   │ ├─┬ concat-stream@1.5.0 
+
+│   │ │ └─┬ readable-stream@2.0.6 
+
+│   │ │   └── isarray@1.0.0 
+
+│   │ ├── debug@0.7.4 
+
+│   │ ├── mkdirp@0.5.0 
+
+│   │ └─┬ yauzl@2.4.1 
+
+│   │   └─┬ fd-slicer@1.0.1 
+
+│   │     └── pend@1.2.0 
+
+│   ├─┬ fs-extra@0.26.7 
+
+│   │ ├── graceful-fs@4.1.11 
+
+│   │ ├── jsonfile@2.4.0 
+
+│   │ └─┬ klaw@1.3.1 
+
+│   │   └── graceful-fs@4.1.11 
+
+│   ├─┬ hasha@2.2.0 
+
+│   │ ├── is-stream@1.1.0 
+
+│   │ └─┬ pinkie-promise@2.0.1 
+
+│   │   └── pinkie@2.0.4 
+
+│   ├── kew@0.7.0 
+
+│   ├── progress@1.1.8 
+
+│   ├─┬ request@2.67.0 
+
+│   │ ├── aws-sign2@0.6.0 
+
+│   │ ├─┬ bl@1.0.3 
+
+│   │ │ └─┬ readable-stream@2.0.6 
+
+│   │id: 45716
+
+� ├─┬ engine.io@1.8.2 
+
+│ │ ├─┬ accepts@1.3.3 
+
+│ │ │ ├─┬ mime-types@2.1.13 
+
+│ │ │ │ └── mime-db@1.25.0 
+
+│ │ │ └── negotiator@0.6.1 
+
+│ │ ├── base64id@1.0.0 
+
+│ │ ├── cookie@0.3.1 
+
+│ │ ├── debug@2.3.3 
+
+│ │ ├─┬ engine.io-parser@1.3.2 
+
+│ │ │ ├── after@0.8.2 
+
+│ │ │ ├── arraybuffer.slice@0.0.6 
+
+│ │ │ ├── base64-arraybuffer@0.1.5 
+
+│ │ │ ├── blob@0.0.4 
+
+│ │ │ └── wtf-8@1.0.0 
+
+│ │ └─┬ ws@1.1.1 
+
+│ │   ├── options@0.0.6 
+
+│ │   └── ultron@1.0.2 
+
+│ ├─┬ has-binary@0.1.7 
+
+│ │ └── isarray@0.0.1 
+
+│ ├── object-assign@4.1.0 
+
+│ ├─┬ socket.io-adapter@0.5.0 
+
+│ │ └── debug@2.3.3 
+
+│ ├─┬ socket.io-client@1.7.2 
+
+│ │ ├── backo2@1.0.2 
+
+│ │ ├── component-bind@1.0.0 
+
+│ │ ├── component-emitter@1.2.1 
+
+│ │ ├── debug@2.3.3 
+
+│ │ ├─┬ engine.io-client@1.8.2 
+
+│ │ │ ├── component-emitter@1.2.1 
+
+│ │ │ ├── component-inherit@0.0.3 
+
+│ │ │ ├── debug@2.3.3 
+
+│ │ │ ├── has-cors@1.1.0 
+
+│ │ │ ├── parsejson@0.0.3 
+
+│ │ │ ├── parseqs@0.0.5 
+
+│ │ │ ├── xmlhttprequest-ssl@1.5.3 
+
+│ │ │ └── yeast@0.1.2 
+
+│ │ ├── indexof@0.0.1 
+
+│ │ ├── object-component@0.0.3 
+
+│ │ ├─┬ parseuri@0.0.5 
+
+│ │ │ └─┬ better-assert@1.0.2 
+
+│ │ │   └── callsite@1.0.0 
+
+│ │ └── to-array@0.1.4 
+
+│ └─┬ socket.io-parser@2.3.1 
+
+│   ├── component-emitter@1.1.2 
+
+│   ├─┬ debug@2.2.0 
+
+│   │ └── ms@0.7.1 
+
+│   └── json3@3.3.2 
+
+├─┬ time-grunt@0.3.2 
+
+│ ├── date-time@0.1.1 
+
+│ └── pretty-ms@0.1.0 
+
+└─┬ torrent-stream@0.18.1 
+
+  ├── bitfield@0.1.0 
+
+  ├─┬ bittorrent-dht@3.2.6 
+
+  │ ├── addr-to-ip-port@1.4.2 
+
+  │ ├── bencode@0.7.0 
+
+  │ ├── buffer-equal@0.0.1 
+
+  │ ├── debug@2.4.5 
+
+  │ ├─┬ is-ip@1.0.0 
+
+  │ │ └── ip-regex@1.0.3 
+
+  │ ├── k-bucket@0.5.0 
+
+  │ ├── network-address@1.1.0 
+
+  │ ├── run-parallel@1.1.6 
+
+  │ ├─┬ simple-get@1.4.3 
+
+  │ │ └── unzip-response@1.0.2 
+
+  │ └── string2compact@1.2.2 
+
+  ├─┬ bittorrent-tracker@2.12.1 
+
+  │ ├── bencode@0.6.0 
+
+  │ ├── bn.js@1.3.0 
+
+  │ ├── debug@2.4.5 
+
+  │ ├── extend.js@0.0.2 
+
+  │ ├─┬ portfinder@0.3.0 
+
+  │ │ └── mkdirp@0.0.7 
+
+  │ └── run-series@1.1.4 
+
+  ├── bncode@0.5.3 
+
+  ├─┬ compact2string@1.4.0 
+
+  │ └── ipaddr.js@1.2.0 
+
+  ├─┬ end-of-stream@0.1.5 
+
+  │ └── once@1.3.3 
+
+  ├── hat@0.0.3 
+
+  ├── ip@0.3.3 
+
+  ├─┬ ip-set@1.0.1 
+
+  │ └── ip@1.1.4 
+
+  ├── mkdirp@0.3.5 
+
+  ├─┬ peer-wire-swarm@0.9.2 
+
+  │ ├── fifo@0.1.4 
+
+  │ ├─┬ peer-wire-protocol@0.7.0 
+
+  │ │ └── bncode@0.2.3 
+
+  │ └── speedometer@0.1.4 
+
+  ├── random-access-file@0.3.2 
+
+  └── thunky@0.1.0 
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.0.0 (node_modules/chokidar/node_modules/fsevents):
+
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.0.15: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+Running "newer:jshint" (newer) task
+
+Running "newer:jshint:all" (newer) task
+
+Running "jshint:all" (jshint) task
+
+✔ No problems
+
+Running "newer-postrun:jshint:all:1:/tmp/build_02e542a15eca15137ce863eb7131c31e/asapach-peerflix-server-edd33f7/node_modules/grunt-newer/.cache" (newer-postrun) task
+
+Running "newer:jshint:server" (newer) task
+
+Running "jshint:server" (jshint) task
+
+✔ No problems
+
+Running "newer-postrun:jshint:server:2:/tmp/build_02e542a15eca15137ce863eb7131c31e/asapach-peerflix-server-edd33f7/node_modules/grunt-newer/.cache" (newer-postrun) task
+
+Running "newer:jshint:test" (newer) task
+
+Running "jshint:test" (jshint) task
+
+✔ No problems
+
+Running "newer-postrun:jshint:test:3:/tmp/build_02e542a15eca15137ce863eb7131c31e/asapach-peerflix-server-edd33f7/node_modules/grunt-newer/.cache" (newer-postrun) task
+
+Running "clean:server" (clean) task
+
+Running "concurrent:test" (concurrent) task
+
+    
+
+    Running "copy:styles" (copy) task
+
+    Copied 1 files
+
+    
+
+    Done, without errors.
+
+    
+
+    
+
+    Execution Time (2016-12-20 16:26:20 UTC)
+
+    loading tasks   6ms  ▇▇▇▇▇▇▇▇▇▇▇▇ 25%
+
+    copy:styles    17ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 71%
+
+    Total 24ms
+
+    
+
+Running "autoprefixer:dist" (autoprefixer) task
+
+File .tmp/styles/main.css created.
+
+Running "connect:test" (connect) task
+
+Started connect web server on http://localhost:9001
+
+Running "karma:unit" (karma) task
+
+20 12 2016 16:26:21.234:INFO [karma]: Karma v0.13.22 server started at http://localhost:9876/
+
+20 12 2016 16:26:21.242:INFO [launcher]: Starting browser PhantomJS
+
+20 12 2016 16:26:22.163:INFO [PhantomJS 1.9.8 (Linux 0.0.0)]: Connected on socket IkxuCNpPcAZzC5iRAAAA with id 26954144
+
+PhantomJS 1.9.8 (Linux 0.0.0): Executed 0 of 2 SUCCESS (0 secs / 0 secs)
+
+�[1A�[2KPhantomJS 1.9.8 (Linux 0.0.0): Executed 1 of 2 SUCCESS (0 secs / 0.018 secs)
+
+�[1A�[2KPhantomJS 1.9.8 (Linux 0.0.0): Executed 2 of 2 SUCCESS (0 secs / 0.019 secs)
+
+�[1A�[2KPhantomJS 1.9.8 (Linux 0.0.0): Executed 2 of 2 SUCCESS (0.046 secs / 0.019 secs)
+
+Running "clean:dist" (clean) task
+
+Cleaning .tmp...OK
+
+Running "wiredep:app" (wiredep) task
+
+Running "useminPrepare:html" (useminPrepare) task
+
+Going through app/index.html to update the config
+
+Looking for build script HTML comment blocks
+
+Configuration is now:
+
+  concat:
+
+  { generated: 
+
+   { files: 
+
+      [ { dest: '.tmp/concat/scripts/vendor.js',
+
+          src: 
+
+           [ 'app/bower_components/jquery/dist/jquery.js',
+
+             'app/bower_components/angular/angular.js',
+
+             'app/bower_components/angular-resource/angular-resource.js',
+
+             'app/bower_components/angular-cookies/angular-cookies.js',
+
+             'app/bower_components/angular-sanitize/angular-sanitize.js',
+
+             'app/bower_components/angular-route/angular-route.js',
+
+             'app/bower_components/bootstrap/dist/js/bootstrap.js',
+
+             'app/bower_components/lodash/dist/lodash.compat.js',
+
+             'app/bower_components/angular-socket-io/socket.js',
+
+             'app/bower_components/ng-file-upload/angular-file-upload.js',
+
+             'app/bower_components/push.js/push.js' ] },
+
+        { dest: '.tmp/concat/scripts/scripts.js',
+
+          src: 
+
+           [ '{.tmp,app}/scripts/app.js',
+
+             '{.tmp,app}/scripts/controllers/main.js',
+
+             '{.tmp,app}/scripts/services/torrent-socket.js' ] } ] } }
+
+  uglify:
+
+  { generated: 
+
+   { files: 
+
+      [ { dest: 'dist/scripts/vendor.js',
+
+          src: [ '.tmp/concat/scripts/vendor.js' ] },
+
+        { dest: 'dist/scripts/scripts.js',
+
+          src: [ '.tmp/concat/scripts/scripts.js' ] } ] } }
+
+  cssmin:
+
+  { options: { root: 'app' },
+
+  generated: 
+
+   { files: 
+
+      [ { dest: 'dist/styles/vendor.css',
+
+          src: 
+
+           [ 'app/bower_components/bootstrap/dist/css/bootstrap.css',
+
+             'app/bower_components/font-awesome/css/font-awesome.css' ] },
+
+        { dest: 'dist/styles/main.css',
+
+          src: [ '{.tmp,app}/styles/main.css' ] } ] } }
+
+Running "concurrent:dist" (concurrent) task
+
+    
+
+    Running "copy:styles" (copy) task
+
+    Copied 1 files
+
+    
+
+    Done, without errors.
+
+    
+
+    
+
+    Execution Time (2016-12-20 16:26:25 UTC)
+
+    loading tasks   8ms  ▇▇▇▇▇▇▇▇▇▇▇▇ 25%
+
+    copy:styles    23ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 72%
+
+    Total 32ms
+
+        
+
+    Running "svgmin:dist" (svgmin) task
+
+    ✔ app/images/logo.svg (saved 783 B 45%)
+
+    Total saved: 783 B
+
+    
+
+    Done, without errors.
+
+    
+
+    
+
+    Execution Time (2016-12-20 16:26:25 UTC)
+
+    loading tasks   10ms  ▇▇▇▇ 8%
+
+    svgmin:dist    121ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 92%
+
+    Total 132ms
+
+    
+
+Running "autoprefixer:dist" (autoprefixer) task
+
+File .tmp/styles/main.css created.
+
+Running "concat:generated" (concat) task
+
+File .tmp/concat/scripts/vendor.js created.
+
+File .tmp/concat/scripts/scripts.js created.
+
+Running "ngmin:dist" (ngmin) task
+
+ngminifying .tmp/concat/scripts/scripts.js
+
+Running "copy:dist" (copy) task
+
+Copied 11 files
+
+Running "cssmin:generated" (cssmin) task
+
+File dist/styles/vendor.css created: 172.66 kB → 141.99 kB
+
+File dist/styles/main.css created: 3.65 kB → 2.14 kB
+
+Running "uglify:generated" (uglify) task
+
+File dist/scripts/vendor.js created: 1.48 MB → 294.37 kB
+
+File dist/scripts/scripts.js created: 4.66 kB → 2.39 kB
+
+Running "rev:dist" (rev) task
+
+dist/scripts/scripts.js >> 16e5c45e.scripts.js
+
+dist/scripts/vendor.js >> b98ba2b8.vendor.js
+
+dist/styles/main.css >> 6e9014b8.main.css
+
+dist/styles/vendor.css >> 7d75dea4.vendor.css
+
+dist/images/logo.png >> a6651610.logo.png
+
+dist/images/logo.svg >> 169ad458.logo.svg
+
+Running "usemin:html" (usemin) task
+
+Processing as HTML - dist/404.html
+
+Update the HTML to reference our concat/min/revved script files
+
+Update the HTML with the new css filenames
+
+Update the HTML with the new img filenames
+
+Update the HTML with data-main tags
+
+Update the HTML with data-* tags
+
+Update the HTML with background imgs, case there is some inline style
+
+Update the HTML with anchors images
+
+Update the HTML with reference in input
+
+Processing as HTML - dist/index.html
+
+Update the HTML to reference our concat/min/revved script files
+
+<script src="scripts/vendor.js" changed to <script src="scripts/b98ba2b8.vendor.js"
+
+<script src="scripts/scripts.js" changed to <script src="scripts/16e5c45e.scripts.js"
+
+Update the HTML with the new css filenames
+
+<link rel="stylesheet" href="styles/vendor.css" changed to <link rel="stylesheet" href="styles/7d75dea4.vendor.css"
+
+<link rel="stylesheet" href="styles/main.css" changed to <link rel="stylesheet" href="styles/6e9014b8.main.css"
+
+Update the HTML with the new img filenames
+
+Update the HTML with data-main tags
+
+Update the HTML with data-* tags
+
+Update the HTML with background imgs, case there is some inline style
+
+Update the HTML with anchors images
+
+Update the HTML with reference in input
+
+Processing as HTML - dist/views/main.html
+
+Update the HTML to reference our concat/min/revved script files
+
+Update the HTML with the new css filenames
+
+Update the HTML with the new img filenames
+
+<img src="images/logo.svg" changed to <img src="images/169ad458.logo.svg"
+
+Update the HTML with data-main tags
+
+Update the HTML with data-* tags
+
+Update the HTML with background imgs, case there is some inline style
+
+Update the HTML with anchors images
+
+Update the HTML with reference in input
+
+Running "usemin:css" (usemin) task
+
+Processing as CSS - dist/styles/6e9014b8.main.css
+
+Update the CSS to reference our revved images
+
+Processing as CSS - dist/styles/7d75dea4.vendor.css
+
+Update the CSS to reference our revved images
+
+Running "usemin:js" (usemin) task
+
+Processing as JS - dist/scripts/16e5c45e.scripts.js
+
+Replacing reference to logo.png
+
+images/logo.png changed to images/a6651610.logo.png
+
+Running "htmlmin:dist" (htmlmin) task
+
+Minified dist/404.html 3.53 kB → 3.37 kB
+
+Minified dist/index.html 694 B → 613 B
+
+Minified dist/views/main.html 4.11 kB → 3.53 kB
+
+Done, without errors.
+
+Execution Time (2016-12-20 16:26:18 UTC)
+
+jshint:all        187ms  ▇ 1%
+
+jshint:server     203ms  ▇ 1%
+
+concurrent:test    1.8s  ▇▇▇▇▇▇ 13%
+
+karma:unit         1.2s  ▇▇▇▇ 9%
+
+concurrent:dist      3s  ▇▇▇▇▇▇▇▇▇▇ 22%
+
+uglify:generated   6.7s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 49%
+
+Total 13.8s
+
+-----> Caching node_modules directory for future builds
+
+-----> Cleaning up node-gyp and npm artifacts
+
+-----> Building runtime environment
+
+-----> ffmpeg app detected
+
+-----> Install ffmpeg
+
+       DOWNLOAD_URL =  http://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz
+
+       exporting PATH
+
+-----> Discovering process types
+
+       Procfile declares types -> web
+
+-----> Compressing...
+
+       Done: 113.7M
+
+-----> Launching...
+
+       Released v3
+
+       https://....herokuapp.com/ deployed to Heroku
+
+� ├─┬ engine.io@1.8.2 
+
+│ │ ├─┬ accepts@1.3.3 
+
+│ │ │ ├─┬ mime-types@2.1.13 
+
+│ │ │ │ └── mime-db@1.25.0 
+
+│ │ │ └── negotiator@0.6.1 
+
+│ │ ├── base64id@1.0.0 
+
+│ │ ├── cookie@0.3.1 
+
+│ │ ├── debug@2.3.3 
+
+│ │ ├─┬ engine.io-parser@1.3.2 
+
+│ │ │ ├── after@0.8.2 
+
+│ │ │ ├── arraybuffer.slice@0.0.6 
+
+│ │ │ ├── base64-arraybuffer@0.1.5 
+
+│ │ │ ├── blob@0.0.4 
+
+│ │ │ └── wtf-8@1.0.0 
+
+│ │ └─┬ ws@1.1.1 
+
+│ │   ├── options@0.0.6 
+
+│ │   └── ultron@1.0.2 
+
+│ ├─┬ has-binary@0.1.7 
+
+│ │ └── isarray@0.0.1 
+
+│ ├── object-assign@4.1.0 
+
+│ ├─┬ socket.io-adapter@0.5.0 
+
+│ │ └── debug@2.3.3 
+
+│ ├─┬ socket.io-client@1.7.2 
+
+│ │ ├── backo2@1.0.2 
+
+│ │ ├── component-bind@1.0.0 
+
+│ │ ├── component-emitter@1.2.1 
+
+│ │ ├── debug@2.3.3 
+
+│ │ ├─┬ engine.io-client@1.8.2 
+
+│ │ │ ├── component-emitter@1.2.1 
+
+│ │ │ ├── component-inherit@0.0.3 
+
+│ │ │ ├── debug@2.3.3 
+
+│ │ │ ├── has-cors@1.1.0 
+
+│ │ │ ├── parsejson@0.0.3 
+
+│ │ │ ├── parseqs@0.0.5 
+
+│ │ │ ├── xmlhttprequest-ssl@1.5.3 
+
+│ │ │ └── yeast@0.1.2 
+
+│ │ ├── indexof@0.0.1 
+
+│ │ ├── object-component@0.0.3 
+
+│ │ ├─┬ parseuri@0.0.5 
+
+│ │ │ └─┬ better-assert@1.0.2 
+
+│ │ │   └── callsite@1.0.0 
+
+│ │ └── to-array@0.1.4 
+
+│ └─┬ socket.io-parser@2.3.1 
+
+│   ├── component-emitter@1.1.2 
+
+│   ├─┬ debug@2.2.0 
+
+│   │ └── ms@0.7.1 
+
+│   └── json3@3.3.2 
+
+├─┬ time-grunt@0.3.2 
+
+│ ├── date-time@0.1.1 
+
+│ └── pretty-ms@0.1.0 
+
+└─┬ torrent-stream@0.18.1 
+
+  ├── bitfield@0.1.0 
+
+  ├─┬ bittorrent-dht@3.2.6 
+
+  │ ├── addr-to-ip-port@1.4.2 
+
+  │ ├── bencode@0.7.0 
+
+  │ ├── buffer-equal@0.0.1 
+
+  │ ├── debug@2.4.5 
+
+  │ ├─┬ is-ip@1.0.0 
+
+  │ │ └── ip-regex@1.0.3 
+
+  │ ├── k-bucket@0.5.0 
+
+  │ ├── network-address@1.1.0 
+
+  │ ├── run-parallel@1.1.6 
+
+  │ ├─┬ simple-get@1.4.3 
+
+  │ │ └── unzip-response@1.0.2 
+
+  │ └── string2compact@1.2.2 
+
+  ├─┬ bittorrent-tracker@2.12.1 
+
+  │ ├── bencode@0.6.0 
+
+  │ ├── bn.js@1.3.0 
+
+  │ ├── debug@2.4.5 
+
+  │ ├── extend.js@0.0.2 
+
+  │ ├─┬ portfinder@0.3.0 
+
+  │ │ └── mkdirp@0.0.7 
+
+  │ └── run-series@1.1.4 
+
+  ├── bncode@0.5.3 
+
+  ├─┬ compact2string@1.4.0 
+
+  │ └── ipaddr.js@1.2.0 
+
+  ├─┬ end-of-stream@0.1.5 
+
+  │ └── once@1.3.3 
+
+  ├── hat@0.0.3 
+
+  ├── ip@0.3.3 
+
+  ├─┬ ip-set@1.0.1 
+
+  │ └── ip@1.1.4 
+
+  ├── mkdirp@0.3.5 
+
+  ├─┬ peer-wire-swarm@0.9.2 
+
+  │ ├── fifo@0.1.4 
+
+  │ ├─┬ peer-wire-protocol@0.7.0 
+
+  │ │ └── bncode@0.2.3 
+
+  │ └── speedometer@0.1.4 
+
+  ├── random-access-file@0.3.2 
+
+  └── thunky@0.1.0 
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.0.0 (node_modules/chokidar/node_modules/fsevents):
+
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.0.15: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+Running "newer:jshint" (newer) task
+
+Running "newer:jshint:all" (newer) task
+
+Running "jshint:all" (jshint) task
+
+✔ No problems
+
+Running "newer-postrun:jshint:all:1:/tmp/build_02e542a15eca15137ce863eb7131c31e/asapach-peerflix-server-edd33f7/node_modules/grunt-newer/.cache" (newer-postrun) task
+
+Running "newer:jshint:server" (newer) task
+
+Running "jshint:server" (jshint) task
+
+✔ No problems
+
+Running "newer-postrun:jshint:server:2:/tmp/build_02e542a15eca15137ce863eb7131c31e/asapach-peerflix-server-edd33f7/node_modules/grunt-newer/.cache" (newer-postrun) task
+
+Running "newer:jshint:test" (newer) task
+
+Running "jshint:test" (jshint) task
+
+✔ No problems
+
+Running "newer-postrun:jshint:test:3:/tmp/build_02e542a15eca15137ce863eb7131c31e/asapach-peerflix-server-edd33f7/node_modules/grunt-newer/.cache" (newer-postrun) task
+
+Running "clean:server" (clean) task
+
+Running "concurrent:test" (concurrent) task
+
+    
+
+    Running "copy:styles" (copy) task
+
+    Copied 1 files
+
+    
+
+    Done, without errors.
+
+    
+
+    
+
+    Execution Time (2016-12-20 16:26:20 UTC)
+
+    loading tasks   6ms  ▇▇▇▇▇▇▇▇▇▇▇▇ 25%
+
+    copy:styles    17ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 71%
+
+    Total 24ms
+
+    
+
+Running "autoprefixer:dist" (autoprefixer) task
+
+File .tmp/styles/main.css created.
+
+Running "connect:test" (connect) task
+
+Started connect web server on http://localhost:9001
+
+Running "karma:unit" (karma) task
+
+20 12 2016 16:26:21.234:INFO [karma]: Karma v0.13.22 server started at http://localhost:9876/
+
+20 12 2016 16:26:21.242:INFO [launcher]: Starting browser PhantomJS
+
+20 12 2016 16:26:22.163:INFO [PhantomJS 1.9.8 (Linux 0.0.0)]: Connected on socket IkxuCNpPcAZzC5iRAAAA with id 26954144
+
+PhantomJS 1.9.8 (Linux 0.0.0): Executed 0 of 2 SUCCESS (0 secs / 0 secs)
+
+�[1A�[2KPhantomJS 1.9.8 (Linux 0.0.0): Executed 1 of 2 SUCCESS (0 secs / 0.018 secs)
+
+�[1A�[2KPhantomJS 1.9.8 (Linux 0.0.0): Executed 2 of 2 SUCCESS (0 secs / 0.019 secs)
+
+�[1A�[2KPhantomJS 1.9.8 (Linux 0.0.0): Executed 2 of 2 SUCCESS (0.046 secs / 0.019 secs)
+
+Running "clean:dist" (clean) task
+
+Cleaning .tmp...OK
+
+Running "wiredep:app" (wiredep) task
+
+Running "useminPrepare:html" (useminPrepare) task
+
+Going through app/index.html to update the config
+
+Looking for build script HTML comment blocks
+
+Configuration is now:
+
+  concat:
+
+  { generated: 
+
+   { files: 
+
+      [ { dest: '.tmp/concat/scripts/vendor.js',
+
+          src: 
+
+           [ 'app/bower_components/jquery/dist/jquery.js',
+
+             'app/bower_components/angular/angular.js',
+
+             'app/bower_components/angular-resource/angular-resource.js',
+
+             'app/bower_components/angular-cookies/angular-cookies.js',
+
+             'app/bower_components/angular-sanitize/angular-sanitize.js',
+
+             'app/bower_components/angular-route/angular-route.js',
+
+             'app/bower_components/bootstrap/dist/js/bootstrap.js',
+
+             'app/bower_components/lodash/dist/lodash.compat.js',
+
+             'app/bower_components/angular-socket-io/socket.js',
+
+             'app/bower_components/ng-file-upload/angular-file-upload.js',
+
+             'app/bower_components/push.js/push.js' ] },
+
+        { dest: '.tmp/concat/scripts/scripts.js',
+
+          src: 
+
+           [ '{.tmp,app}/scripts/app.js',
+
+             '{.tmp,app}/scripts/controllers/main.js',
+
+             '{.tmp,app}/scripts/services/torrent-socket.js' ] } ] } }
+
+  uglify:
+
+  { generated: 
+
+   { files: 
+
+      [ { dest: 'dist/scripts/vendor.js',
+
+          src: [ '.tmp/concat/scripts/vendor.js' ] },
+
+        { dest: 'dist/scripts/scripts.js',
+
+          src: [ '.tmp/concat/scripts/scripts.js' ] } ] } }
+
+  cssmin:
+
+  { options: { root: 'app' },
+
+  generated: 
+
+   { files: 
+
+      [ { dest: 'dist/styles/vendor.css',
+
+          src: 
+
+           [ 'app/bower_components/bootstrap/dist/css/bootstrap.css',
+
+             'app/bower_components/font-awesome/css/font-awesome.css' ] },
+
+        { dest: 'dist/styles/main.css',
+
+          src: [ '{.tmp,app}/styles/main.css' ] } ] } }
+
+Running "concurrent:dist" (concurrent) task
+
+    
+
+    Running "copy:styles" (copy) task
+
+    Copied 1 files
+
+    
+
+    Done, without errors.
+
+    
+
+    
+
+    Execution Time (2016-12-20 16:26:25 UTC)
+
+    loading tasks   8ms  ▇▇▇▇▇▇▇▇▇▇▇▇ 25%
+
+    copy:styles    23ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 72%
+
+    Total 32ms
+
+        
+
+    Running "svgmin:dist" (svgmin) task
+
+    ✔ app/images/logo.svg (saved 783 B 45%)
+
+    Total saved: 783 B
+
+    
+
+    Done, without errors.
+
+    
+
+    
+
+    Execution Time (2016-12-20 16:26:25 UTC)
+
+    loading tasks   10ms  ▇▇▇▇ 8%
+
+    svgmin:dist    121ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 92%
+
+    Total 132ms
+
+    
+
+Running "autoprefixer:dist" (autoprefixer) task
+
+File .tmp/styles/main.css created.
+
+Running "concat:generated" (concat) task
+
+File .tmp/concat/scripts/vendor.js created.
+
+File .tmp/concat/scripts/scripts.js created.
+
+Running "ngmin:dist" (ngmin) task
+
+ngminifying .tmp/concat/scripts/scripts.js
+
+Running "copy:dist" (copy) task
+
+Copied 11 files
+
+Running "cssmin:generated" (cssmin) task
+
+File dist/styles/vendor.css created: 172.66 kB → 141.99 kB
+
+File dist/styles/main.css created: 3.65 kB → 2.14 kB
+
+Running "uglify:generated" (uglify) task
+
+File dist/scripts/vendor.js created: 1.48 MB → 294.37 kB
+
+File dist/scripts/scripts.js created: 4.66 kB → 2.39 kB
+
+Running "rev:dist" (rev) task
+
+dist/scripts/scripts.js >> 16e5c45e.scripts.js
+
+dist/scripts/vendor.js >> b98ba2b8.vendor.js
+
+dist/styles/main.css >> 6e9014b8.main.css
+
+dist/styles/vendor.css >> 7d75dea4.vendor.css
+
+dist/images/logo.png >> a6651610.logo.png
+
+dist/images/logo.svg >> 169ad458.logo.svg
+
+Running "usemin:html" (usemin) task
+
+Processing as HTML - dist/404.html
+
+Update the HTML to reference our concat/min/revved script files
+
+Update the HTML with the new css filenames
+
+Update the HTML with the new img filenames
+
+Update the HTML with data-main tags
+
+Update the HTML with data-* tags
+
+Update the HTML with background imgs, case there is some inline style
+
+Update the HTML with anchors images
+
+Update the HTML with reference in input
+
+Processing as HTML - dist/index.html
+
+Update the HTML to reference our concat/min/revved script files
+
+<script src="scripts/vendor.js" changed to <script src="scripts/b98ba2b8.vendor.js"
+
+<script src="scripts/scripts.js" changed to <script src="scripts/16e5c45e.scripts.js"
+
+Update the HTML with the new css filenames
+
+<link rel="stylesheet" href="styles/vendor.css" changed to <link rel="stylesheet" href="styles/7d75dea4.vendor.css"
+
+<link rel="stylesheet" href="styles/main.css" changed to <link rel="stylesheet" href="styles/6e9014b8.main.css"
+
+Update the HTML with the new img filenames
+
+Update the HTML with data-main tags
+
+Update the HTML with data-* tags
+
+Update the HTML with background imgs, case there is some inline style
+
+Update the HTML with anchors images
+
+Update the HTML with reference in input
+
+Processing as HTML - dist/views/main.html
+
+Update the HTML to reference our concat/min/revved script files
+
+Update the HTML with the new css filenames
+
+Update the HTML with the new img filenames
+
+<img src="images/logo.svg" changed to <img src="images/169ad458.logo.svg"
+
+Update the HTML with data-main tags
+
+Update the HTML with data-* tags
+
+Update the HTML with background imgs, case there is some inline style
+
+Update the HTML with anchors images
+
+Update the HTML with reference in input
+
+Running "usemin:css" (usemin) task
+
+Processing as CSS - dist/styles/6e9014b8.main.css
+
+Update the CSS to reference our revved images
+
+Processing as CSS - dist/styles/7d75dea4.vendor.css
+
+Update the CSS to reference our revved images
+
+Running "usemin:js" (usemin) task
+
+Processing as JS - dist/scripts/16e5c45e.scripts.js
+
+Replacing reference to logo.png
+
+images/logo.png changed to images/a6651610.logo.png
+
+Running "htmlmin:dist" (htmlmin) task
+
+Minified dist/404.html 3.53 kB → 3.37 kB
+
+Minified dist/index.html 694 B → 613 B
+
+Minified dist/views/main.html 4.11 kB → 3.53 kB
+
+Done, without errors.
+
+Execution Time (2016-12-20 16:26:18 UTC)
+
+jshint:all        187ms  ▇ 1%
+
+jshint:server     203ms  ▇ 1%
+
+concurrent:test    1.8s  ▇▇▇▇▇▇ 13%
+
+karma:unit         1.2s  ▇▇▇▇ 9%
+
+concurrent:dist      3s  ▇▇▇▇▇▇▇▇▇▇ 22%
+
+uglify:generated   6.7s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 49%
+
+Total 13.8s
+
+-----> Caching node_modules directory for future builds
+
+-----> Cleaning up node-gyp and npm artifacts
+
+-----> Building runtime environment
+
+-----> ffmpeg app detected
+
+-----> Install ffmpeg
+
+       DOWNLOAD_URL =  http://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz
+
+       exporting PATH
+
+-----> Discovering process types
+
+       Procfile declares types -> web
+
+-----> Compressing...
+
+       Done: 113.7M
+
+-----> Launching...
+
+       Released v3
+
+       https://....herokuapp.com/ deployed to Heroku
