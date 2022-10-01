@@ -1,18 +1,18 @@
-Node.js app detected
+-----> Node.js app detected
 
        PRO TIP: Avoid using semver ranges starting with '>' in engines.node
 
        See https://devcenter.heroku.com/articles/nodejs-support
 
-Requested node range:  >=0.12
+-----> Requested node range:  >=0.12
 
-Resolved node version: 6.9.1
+-----> Resolved node version: 6.9.1
 
-Downloading and installing node
+-----> Downloading and installing node
 
-Writing a custom .npmrc to circumvent npm bugs
+-----> Writing a custom .npmrc to circumvent npm bugs
 
-Exporting config vars to environment
+-----> Exporting config vars to environment
 
 npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
 
@@ -1790,28 +1790,29 @@ uglify:generated   6.7s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇�
 
 Total 13.8s
 
-Caching node_modules directory for future builds
+-----> Caching node_modules directory for future builds
 
-Cleaning up node-gyp and npm artifacts
+-----> Cleaning up node-gyp and npm artifacts
 
-Building runtime environment
-ffmpeg app detected
+-----> Building runtime environment
 
-Install ffmpeg
+-----> ffmpeg app detected
+
+-----> Install ffmpeg
 
        DOWNLOAD_URL =  http://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz
 
        exporting PATH
 
-Discovering process types
+-----> Discovering process types
 
        Procfile declares types -> web
 
-Compressing...
+-----> Compressing...
 
        Done: 113.7M
 
-Launching...
+-----> Launching...
 
        Released v3
 
@@ -2373,29 +2374,29 @@ uglify:generated   6.7s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇�
 
 Total 13.8s
 
-Caching node_modules directory for future builds
+-----> Caching node_modules directory for future builds
 
-Cleaning up node-gyp and npm artifacts
+-----> Cleaning up node-gyp and npm artifacts
 
-Building runtime environment
+-----> Building runtime environment
 
-ffmpeg app detected
+-----> ffmpeg app detected
 
-Install ffmpeg
+-----> Install ffmpeg
 
        DOWNLOAD_URL =  http://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz
 
        exporting PATH
 
-Discovering process types
+-----> Discovering process types
 
        Procfile declares types -> web
 
-Compressing...
+-----> Compressing...
 
        Done: 113.7M
 
-Launching...
+-----> Launching...
 
        Released v3
 
